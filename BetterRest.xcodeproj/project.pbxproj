@@ -13,6 +13,7 @@
 		5360F29823C61793009DB4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5360F29723C61793009DB4BF /* Assets.xcassets */; };
 		5360F29B23C61793009DB4BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5360F29A23C61793009DB4BF /* Preview Assets.xcassets */; };
 		5360F29E23C61793009DB4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360F29C23C61793009DB4BF /* LaunchScreen.storyboard */; };
+		5360F2A823C62399009DB4BF /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5360F2A723C62399009DB4BF /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5360F29A23C61793009DB4BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5360F29D23C61793009DB4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5360F29F23C61793009DB4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5360F2A723C62399009DB4BF /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5360F29723C61793009DB4BF /* Assets.xcassets */,
 				5360F29C23C61793009DB4BF /* LaunchScreen.storyboard */,
 				5360F29F23C61793009DB4BF /* Info.plist */,
+				5360F2A723C62399009DB4BF /* SleepCalculator.mlmodel */,
 				5360F29923C61793009DB4BF /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5360F29223C61791009DB4BF /* AppDelegate.swift in Sources */,
+				5360F2A823C62399009DB4BF /* SleepCalculator.mlmodel in Sources */,
 				5360F29423C61791009DB4BF /* SceneDelegate.swift in Sources */,
 				5360F29623C61791009DB4BF /* ContentView.swift in Sources */,
 			);
